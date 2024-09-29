@@ -25,19 +25,19 @@
                     
                         <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 pb-3">
                            <label for="card#">Card#</label>
-                           <input class="form-control" id="card#" placeholder="XXXXXXXXXXXXXX" type="text"/>
+                           <input class="form-control" id="card#" placeholder="XXXXXXXXXXXXXX" type="text" required=""/>
             
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 pb-3">
                             <label for="CVC#">CVC#</label>
-                            <input class="form-control" id="CVC#" placeholder="0000" type="text"/>
+                            <input class="form-control" id="CVC#" placeholder="0000" type="text" required=""/>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 pb-3">
                             <label for="amount" >Amount </label>
                             <div class="input-group gap-1 ">
                             <i class="fa-solid fa-dollar-sign d-inline"></i>
                             
-                            <input class="form-control"  id="amount" placeholder="Amount" type="text"/></div>
+                            <input class="form-control"  id="amount" placeholder="Amount" type="text" required=""/></div>
                        
                         </div>
                   </div>
@@ -48,11 +48,11 @@
                         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 my-1">
                             <div class="First-name">
                             <label for="FirstName">First Name</label>
-                            <input class="form-control" id="FirstName" type="text"/>
+                            <input class="form-control" id="FirstName" type="text" required=""/>
                             </div>
                             <div class="City my-3">
                             <label for="City">City</label>
-                            <input  class="form-control" id="City" type="text"/>
+                            <input  class="form-control" id="City" type="text" required=""/>
                         </div>
                        
                            
@@ -79,11 +79,11 @@
                        
                             <label for="LastName">Last Name
                             </label>
-                            <input  class="form-control" name="LastName" type="text"/>
+                            <input  class="form-control" name="LastName" type="text" required=""/>
                             <div class="d-flex my-3">
                                 <div class="me-5">
                                 <label for="city">State</label>
-                                <select  class=" form-control custom-select" id="city">
+                                <select  class=" form-control custom-select" id="city" required="">
                                     <option selected >Pick a state</option>
                                     <option value="bcn">Barcelona</option>
                                     <option value="svll">Sevilla</option>
@@ -96,7 +96,7 @@
                                 
                                 <label for="PostalCode">Postal code
                                 </label>
-                                <input  class="form-control" id="PostalCode" type="text"/>
+                                <input  class="form-control" id="PostalCode" type="text" required=""/>
                                 </div>
 
                             </div>
